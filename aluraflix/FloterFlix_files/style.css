@@ -13,7 +13,7 @@ h1 {
     font-size: 60px;
     color: blue;
     text-align: center;
-    margin: 25px ;
+    margin: 20px 0;
 }
 
 h2 {
@@ -38,13 +38,12 @@ h2 {
 .quadrado {
     position: absolute;
     top: 0;
-    width: 1490px;
+    width: 1450px;
     height: 400px; /* Altura ajustável */
     background-color: #2d2d30;
-    border-radius: 20px;
+    border-radius: 15px;
     z-index: 1; /* O quadrado está no fundo */
     margin-top: 180px;
-    left: 40px;
 }
 
 .movie-gallery {
@@ -63,29 +62,4 @@ img {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
     position: relative;
     z-index: 3; /* As imagens estão na frente de tudo */
-}
-
-
-.titulosfilmesBOCDT{
-    position: relative;
-    font-family: "Chakra Petch", sans-serif;
-    font-size: 15px;
-    color: white;
-    margin: -7px ;
-    z-index: 4;
-    margin-left:-30px ;
-    
-
-}
-
-.titulosfilmesVU{
-    position: relative;
-    font-family: "Chakra Petch", sans-serif;
-    font-size: 15px;
-    color: white;
-    margin: -7px ;
-    z-index: 4;
-    margin-left:-30px ;
-    margin-top: 20px;
-    
 }
